@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_ssram_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_ssram" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="101833334fs"></ZoomStartTime>
+      <ZoomEndTime time="420833335fs"></ZoomEndTime>
+      <Cursor1Time time="155000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/top_ssram/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/sram_addr" type="array">
+      <obj_property name="ElementShortName">sram_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_addr[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/sram_wr" type="logic">
+      <obj_property name="ElementShortName">sram_wr</obj_property>
+      <obj_property name="ObjectShortName">sram_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/sram_dq_ctrl" type="logic">
+      <obj_property name="ElementShortName">sram_dq_ctrl</obj_property>
+      <obj_property name="ObjectShortName">sram_dq_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/ram_en" type="logic">
+      <obj_property name="ElementShortName">ram_en</obj_property>
+      <obj_property name="ObjectShortName">ram_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/nB_abcd" type="array">
+      <obj_property name="ElementShortName">nB_abcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nB_abcd[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/sram_cke" type="logic">
+      <obj_property name="ElementShortName">sram_cke</obj_property>
+      <obj_property name="ObjectShortName">sram_cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/sram_adv" type="logic">
+      <obj_property name="ElementShortName">sram_adv</obj_property>
+      <obj_property name="ObjectShortName">sram_adv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/DQ_bus_a" type="array">
+      <obj_property name="ElementShortName">DQ_bus_a[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_bus_a[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/DQ_bus_b" type="array">
+      <obj_property name="ElementShortName">DQ_bus_b[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_bus_b[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/DQ_bus_c" type="array">
+      <obj_property name="ElementShortName">DQ_bus_c[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_bus_c[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/DQ_bus_d" type="array">
+      <obj_property name="ElementShortName">DQ_bus_d[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_bus_d[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ssram/DQ_reg" type="array">
+      <obj_property name="ElementShortName">DQ_reg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_reg[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
